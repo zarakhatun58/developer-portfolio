@@ -2,21 +2,23 @@ body{ font-family: 'Roboto', sans-serif;
         margin: 0;
 
 }
-.orange{ font-size:50px ;
+.orange{ font-size:25px ;
         color: orangered;
 
 
 }
 
-section{
+.flexible-container{
         display: flex;
         margin-bottom: 80px;
 }
-.half-width{ width:50%;
-        padding: 2%;
+.half-width{ width:80%;
+         padding: 2%;
+         
+         
 
 }
-.half-width img{ width: 80%;
+.half-width img{ width: 50%;
 
 }
 .link-button{ text-decoration: none;
@@ -42,3 +44,43 @@ section{
                 background-position: right;
 
 }
+
+.experience-area{ 
+                        background-image:url(image/exp-bg.png);
+                        background-repeat: no-repeat;
+                        background-position: left;
+                
+
+}
+
+.experience-item{ box-shadow: 10px 10px 30px gray;
+                        width: 40%;
+                        margin-left: 5%;
+                        margin-right: 5%;
+                        padding-left: 10px;
+                        border-radius: 10px;
+                        border-left: 5px solid black;
+
+                }
+
+.h3{ color: orangered;
+        font-size: 15px;
+
+}
+
+#web-dev{border-image: linear-gradient(blue, cyan);
+        border-image-slice: 1;
+        border-left: 5px solid ;
+}
+
+#full-stack{ border-image: linear-gradient(salmon, tomato);
+        border-image-slice: 1;
+        border-left: 5px solid ;
+
+
+}
+footer p{ text-align: center;
+
+}
+
+ 
